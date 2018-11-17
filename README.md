@@ -1,1 +1,1 @@
-# Leetcode-Algorithms---Java-Solutions
+# Leetcode Algorithms - Java-Solutions
