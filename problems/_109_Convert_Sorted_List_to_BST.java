@@ -24,13 +24,6 @@ class ListNode {
   ListNode(int x) { val = x; }
 }
 
-class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
-	TreeNode(int x) { val = x; }
-}
-
 public class _109_Convert_Sorted_List_to_BST {
 
 	static ListNode h;
