@@ -18,12 +18,6 @@ package problems;
 	 -10  5
  */
 
-class ListNode {
-  int val;
-  ListNode next;
-  ListNode(int x) { val = x; }
-}
-
 public class _109_Convert_Sorted_List_to_BST {
 
 	static ListNode h;
