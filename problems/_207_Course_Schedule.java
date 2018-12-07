@@ -41,6 +41,14 @@ public class _207_Course_Schedule {
 
 	public static void main(String[] args) {
 
+		int numCourses = 2;
+		
+		int[][] preReq = new int[][] {{1, 0}};
+		
+		System.out.println(new _207_Course_Schedule().canFinish_BFS(numCourses, preReq));
+		
+		System.out.println(new _207_Course_Schedule().canFinish(numCourses, preReq));
+		
 	}
 	
 	//Runtime: 51 ms , Using BFS Traversal to detect loop
